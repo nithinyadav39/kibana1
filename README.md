@@ -63,12 +63,4 @@ Most incidents were raised by Automation Engines and Monitoring Systems, reducin
 
 About 45% of total tickets were in “Resolved” or “Closed” status, indicating healthy ticket management.
 
-Around 25% of incidents remained open, suggesting the need for improved SLA monitoring.
-
 High Priority incidents represented 20% of all tickets — mainly triggered by system alerts.
-
-Data shows that user-generated incidents take longer to resolve compared to automated alerts.
-
-“Unknown” fields (missing reporters or priorities) indicate data entry or integration issues that need correction.
-
-The dashboard helps identify incident volume trends, team performance, and automation efficiency
