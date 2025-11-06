@@ -24,9 +24,11 @@ Used the helpers.bulk() function to efficiently upload all records into Elastics
 
 **Created multiple visualizations using Kibana’s Visualize Library**
 
-![ ](screenshorts/Screenshot%202025-11-05%20161554.png)
-![ ](screenshorts/Screenshot%202025-11-05%20161614.png)
-![ ](screenshorts/Screenshot%202025-11-05%20161632.png)
+![ ](screenshorts/Screenshot%202025-11-06%20121044.png)
+![ ](screenshorts/Screenshot%202025-11-06%20121123.png)
+![ ](screenshorts/Screenshot%202025-11-06%20121142.png)
+![ ](screenshorts/Screenshot%202025-11-06%20121201.png)
+
 
 
 
@@ -43,24 +45,13 @@ main → For finalized, production-ready code
 
 Cloned the GitHub repository to the local environment using:
 
-git clone https://github.com/<your-username>/incident-data-pipeline.git
-cd incident-data-pipeline
-
-
 Worked and tested code changes in the dev branch.
 
 Created a Pull Request (PR) from dev → stage after successful testing.
 
-Verified the workflow in staging by checking data ingestion and Kibana dashboards.
+created a Pull Request (PR) from stage → main for final promotion.
 
-Once confirmed, created a Pull Request (PR) from stage → main for final promotion.
 
-Merged changes into main — completing the full promotion lifecycle.
 
-**Business Insights from Dashboard**
 
-Most incidents were raised by Automation Engines and Monitoring Systems, reducing manual workload.
 
-About 45% of total tickets were in “Resolved” or “Closed” status, indicating healthy ticket management.
-
-High Priority incidents represented 20% of all tickets — mainly triggered by system alerts.

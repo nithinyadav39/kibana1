@@ -9,12 +9,13 @@ client = Elasticsearch(
 )
 
 
-index_name = "dummy_incident_tickets"
+index_name = "dummy_incident_ticketss"
 
 # --- LOAD CSV ---
 df = pd.read_csv("dummy_incident_tickets.csv")
 
 # --- CLEAN DATA ---
+df = df.dropna(axis=1, how='all')
 df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
 df = df.fillna("Unknown")
 df = df.replace(r'^\s*$', "Unknown", regex=True)
